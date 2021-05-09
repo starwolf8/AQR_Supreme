@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="starwolf.home.aqrsupreme.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_current"
+        android:name="starwolf.home.aqrsupreme.ui.current.CurrentFragment"
+        android:label="@string/menu_current"
+        tools:layout="@layout/fragment_current" />
+
+    <fragment
+        android:id="@+id/nav_historic"
+        android:name="starwolf.home.aqrsupreme.ui.historic.HistoricFragment"
+        android:label="@string/menu_historic"
+        tools:layout="@layout/fragment_historic" />
+
+    <fragment
+        android:id="@+id/nav_alerts"
+        android:name="starwolf.home.aqrsupreme.ui.alerts.AlertsFragment"
+        android:label="@string/menu_alerts"
+        tools:layout="@layout/fragment_alerts" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="starwolf.home.aqrsupreme.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_signoff"
+        android:name="starwolf.home.aqrsupreme.ui.signoff.SignOffFragment"
+        android:label="@string/menu_signoff"
+        tools:layout="@layout/fragment_sign_off" />
+</navigation>
